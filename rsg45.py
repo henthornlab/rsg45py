@@ -57,7 +57,7 @@ with CIPDriver(rsg_path) as rsg:
     param = rsg.generic_message(
         service=Services.get_attribute_single,
         class_code=4,
-        instance=100,  # Config Assembly
+        instance=100,  # Input assembly
         attribute=3,
         connected=True,
         unconnected_send=True,
